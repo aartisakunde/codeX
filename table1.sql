@@ -1,0 +1,10 @@
+create database codegen;
+show databases;
+ use codegen;
+ select databases();
+ create table courses (id int,c_name varchar(50),fee int,duration varchar(60));
+ desc courses;
+ insert into courses values (101,"java",7000, "6 months");
+ select*from courses;
+ desc courses;
+ select*from courses where c_name ="java";
