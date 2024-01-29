@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position properties</title>
+    <style>
+        
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  border-style: dashed;
+  border-color: black;
+}
+
+#two {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background: blue;
+}
+#five {
+    /*position: sticky;*/
+    top: 150;
+    left:150;
+    position: absolute;
+    background: indigo; 
+   
+}
+#four {
+    top: 150;
+    left:150;
+    background: rgb(201, 188, 211); 
+    z-index: -1; 
+   /* position: static;*/
+} 
+</style>
+</head>
+<body>
+<div class="box" id="css">css</div>
+<div class="box" id="one">One</div>
+<div class="box" id="two">Two</div>
+<div class="box" id="three">Three</div>
+<div class="box" id="four">Four</div>
+<div class="box" id="five">Five</div>
+<div class="box" id="six">six</div>
+
+</body>
+</html>

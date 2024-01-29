@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            my first website 
+        </title>
+        <style>
+            p{
+                background-color: blueviolet;
+            }
+        </style>
+           <link rel="stylesheet"href="p1.css">
+    </head>
+    <body>
+        <h1 style="background-color: aqua;">Inline css</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quasi mollitia assumenda ab non libero dolorum quas a ipsum quae blanditiis cupiditate placeat esse hic, ex sunt molestiae minus nobis.
+        </p>
+    </body>
+</html>
