@@ -1,0 +1,38 @@
+-- use codex;
+-- create table customer(
+--     id int primary key  auto_increment,
+--     first_name varchar(255),
+--     last_name varchar(255),
+--     email varchar(255)
+--     );
+-- insert into customer(
+--     first_name,
+--     last_name,
+--     email
+-- ) values
+--    ("thor","deshmukh","thor@gmail.com"),
+--    ("tony","pawar","tony@gmail.com"),
+--    ("shaktiman","gaikwad","shaktiman@gmail.com"),
+--    ("chotabhim","patil","chotabhim@gmail.com");
+
+-- order table
+
+-- create table orders(
+--     order_id int,
+--     order_date date,
+--     amount int,
+--     user_id int,
+--     FOREIGN KEY(user_id) references customer(id)
+-- );
+
+-- insert into orders(
+--     order_id,
+--     order_date,
+--     amount,
+--     user_id
+-- )values
+--    (10,'2020-10-10',100,1),
+--    (11,'2019-01-11',200,1),
+--    (12,'2022-12-10',300,2),
+--    (13,'2024-05-08',400,2),
+--    (14,'2018-05-05',500,4);
