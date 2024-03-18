@@ -1,0 +1,28 @@
+-- create table student(
+--     id int primary key auto_increment,
+--     name varchar(255)
+-- );    
+-- insert into student(
+--     name
+-- )values ("celeb"),
+--         ("samantha"),
+--         ("raj"),
+--         ("carlos"),
+--         ("lisa");
+
+-- paper table
+-- create table papers(
+--     p_title varchar(255),
+--     grade int,
+--     stud_id int,
+--     FOREIGN KEY (stud_id) references student(id)
+-- );
+-- insert into papers(
+--     p_title,
+--     grade,
+--     stud_id
+-- )values ("java",60,1),
+--         ("python",75,1),
+--         ("flutter",95,2),
+--         ("react",98,2),
+--         ("cpp",89,4);
