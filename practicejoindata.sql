@@ -1,0 +1,48 @@
+-- create table employees(
+--     id int PRIMARY KEY AUTO_INCREMENT,
+--     name varchar(100)
+-- );
+-- insert into employees(
+--          name
+-- )values
+--         ("rani"),
+--         ("soni"),
+--         ("kajal"),
+--         ("priti"),
+--         ("vaishnavi");
+
+-- create table projects(
+--     id int PRIMARY KEY AUTO_INCREMENT,
+--     project_name varchar(100)
+-- );
+-- insert into projects(
+--     project_name
+-- ) values
+--        ("agro products"),
+--        ("travel and tourism"),
+--        ("grossary shop"),
+--        ("electricity billing system"),
+--        ("petzon");
+
+-- create table projectassign(
+--        emp_id int,
+--        pro_id int,
+--        PRIMARY KEY (emp_id, pro_id),
+--        FOREIGN KEY (emp_id) REFERENCES employees(id),
+--        FOREIGN KEY (pro_id) REFERENCES projects(id)
+-- );
+-- insert into projectassign(
+--     emp_id,
+--     pro_id
+-- )values 
+--     (1,1),
+--     (1,3),
+--     (2,1),
+--     (2,2),
+--     (3,4),
+--     (3,3),
+--     (4,2),
+--     (4,5),
+--     (5,3),
+--     (5,5),
+--     (1,4);
