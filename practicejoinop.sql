@@ -1,0 +1,11 @@
+-- select project_name,
+-- count(projects.id)as procount
+-- from projects
+-- left join projectassign on projectassign.pro_id= projects.id
+-- group by students.id, project_name;
+
+-- task 2:  to find employee id, employee name , project_name
+  -- select employees.id, employees.name, project_name
+  --    from employees
+  --    left join projectassign on projectassign.emp_id=employees.emp_id
+  --    group by project_name;
